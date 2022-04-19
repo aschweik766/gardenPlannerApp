@@ -1,11 +1,14 @@
 [
     {
-        "name": "Tomatoes in Pots",
+        "name": "Tomatoes",
         "id": "1",
         "variety": {
             "id": "1.1",
-            "species": "Husky Red Cherry Tomato",
+            "recommendation": "Husky Red Cherry Tomato",
             "color": "red"
+        },
+        "img": {
+            "url": "string"
         },
         "_links": {
             "url": "https://bonnieplants.com/products/husky-red-cherry-tomato?_pos=2&_psq=cherry&_ss=e&_v=1.0"
@@ -17,21 +20,17 @@
             "days": "65 days post planting"  
         },
         "light": "Full Sun",
-        "fruit": {
+        "harvest": {
             "size": "1 inches wide, small",
-            "flavor": "sweet"
+            "characteristics": "sweet"
         },
         "plant": {
             "height": "Mediumg, 24-48 inches",
             "spacing": "36 inches apart"
         },
         "supports": "Using a cage or trellis will help support growth.",
-        "diseases": {
-            "type": "String"
-        },
-        "pests": {
-            "type": "Aphids, horn-worms"
-        },
+        "diseases": "Early Rot",
+        "pests": "Aphids, horn-worms",
         "companions": {
             "plant": "Plant with basil; it helps deter aphids, slugworms, hornworms",
             "insects": "Ladybugs love to eat aphids."
@@ -51,6 +50,9 @@
         "_links": {
             "url": "https://bonnieplants.com/products/green-leaf-lettuce?_pos=4&_psq=let&_ss=e&_v=1.0"
         }, 
+        "img": {
+            "url": "string"
+        },
         "season": {
             "time": "Early Spring, Fall"
         },
@@ -58,21 +60,17 @@
             "days": "21 days after planting"  
         },
         "light": "Partial Shade--to Full Sun",
-        "fruit": {
+        "harvest": {
             "size": "Leaves will reach 12-18 inches tall; short",
-            "flavor": "crisp"
+            "characteristics": "crisp"
         },
         "plant": {
             "height": "short",
             "spacing": "10-15 inches apart"
         },
         "supports": "Grow bags, window boxes or large plastic buckets",
-        "diseases": {
-            "type": "String"
-        },
-        "pests": {
-            "type": "Aphids, horn-worms"
-        },
+        "diseases": "Early Rot",
+        "pests": "Aphids, horn-worms",
         "companions": {
             "plant": "Plant with chives or cilantro or Nasturtiums to deter slugs, aphids,",
             "insects": "Ladybugs love to eat aphids."
@@ -92,6 +90,9 @@
         "_links": {
             "url": "https://www.hunker.com/13427460/how-to-grow-yukon-gold-potatoes"
         }, 
+        "img": {
+            "url": "string"
+        },
         "season": {
             "time": "Early Spring, (soil temp of at least 40 degrees Fahrenheit)",
             "tips": "Planting in soil too cool or hot can cause fungal infeciton or rot"
@@ -144,9 +145,9 @@
             "days": "When tops turn yellow and dry, harvest the bulbs, usually 65+ days after transplant."  
         },
         "light": "Full Sun",
-        "fruit": {
+        "harvest": {
             "size": "small, palm-sized bulbs",
-            "flavor": "mild, sweet, savory"
+            "characteristics": "mild, sweet, savory"
         },
         "plant": {
             "height": "short",
@@ -182,6 +183,9 @@
         "_links": {
             "url": "https://www.rareseeds.com/store/vegetables/new-items-2019/yellow-sweet-spanish-onion?gclid=Cj0KCQjwmPSSBhCNARIsAH3cYgbFVhB5qg1g_KsmSG6OAzEcNAZa6JRqE2RcaEgp0-mMdOEzcCLHL1MaApuuEALw_wcB"
         }, 
+        "img": {
+            "url": "string"
+        },
         "season": {
             "time": "Late Spring-Early Summer",
             "tips": "Sew directly in ground after soil reaches 48 degrees F."

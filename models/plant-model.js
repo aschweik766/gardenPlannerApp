@@ -2,44 +2,40 @@ const mongoose = require('../db/connection')
 const PlantSchema = new mongoose.Schema(
         {
            name: {
-               id: Number,
                type: String,
                required: true,
-           },
+           }, 
+           id: Number,
            variety: {
                id: Number,
                recommendation: String,
                color: String,
-               url: String,
            },
            _links: {
                url: String,
            },
-           zone: {
-               type: String,
-           }, 
+           img: {
+               url: String,
+            },
            season: {
                time: String,
+               tips: String,
            },
            maturation: {
                days: Number,    
            },
            light: String,
-           fruit: {
+           harvest: {
                size: String,
-               flavor: String,
+               characteristics: String,
            },
            plant: {
                height: String,
                spacing: Number,
            },
            supports: String,
-           diseases: {
-               type: String,
-           },
-           pests: {
-               type: String,
-           },
+           diseases: String,
+           pests: String,
            companions: {
                plant: String,
                insects: String,
