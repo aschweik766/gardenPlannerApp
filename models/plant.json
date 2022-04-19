@@ -1,0 +1,84 @@
+[
+    {
+        "name": "Tomatoes in Pots",
+        "id": "1",
+        "variety": {
+            "id": "1.1",
+            "species": "Husky Red Cherry Tomato",
+            "color": "red"
+        },
+        "_links": {
+            "url": "https://bonnieplants.com/products/husky-red-cherry-tomato?_pos=2&_psq=cherry&_ss=e&_v=1.0"
+        }, 
+        "season": {
+            "time": "Spring, early Summer"
+        },
+        "maturation": {
+            "days": "65 days post planting"  
+        },
+        "light": "Full Sun",
+        "fruit": {
+            "size": "1 inches wide, small",
+            "flavor": "sweet"
+        },
+        "plant": {
+            "height": "Mediumg, 24-48 inches",
+            "spacing": "36 inches apart"
+        },
+        "supports": "Using a cage or trellis will help support growth.",
+        "diseases": {
+            "type": "String"
+        },
+        "pests": {
+            "type": "Aphids, horn-worms"
+        },
+        "companions": {
+            "plant": "Plant with basil; it helps deter aphids, slugworms, hornworms",
+            "insects": "Ladybugs love to eat aphids."
+        },
+        "guide": {
+            "url": "https://www.thespruce.com/tips-for-growing-tomatoes-in-containers-848216"
+        }
+    },
+    {
+        "name": "Greens and Lettuces",
+        "id": "2",
+        "variety": {
+            "id": "2.1",
+            "species": "Green Leaf Lettuce",
+            "color": "green"
+        },
+        "_links": {
+            "url": "https://bonnieplants.com/products/green-leaf-lettuce?_pos=4&_psq=let&_ss=e&_v=1.0"
+        }, 
+        "season": {
+            "time": "Early Spring, Fall"
+        },
+        "maturation": {
+            "days": "21 days after planting"  
+        },
+        "light": "Partial Shade--to Full Sun",
+        "fruit": {
+            "size": "Leaves will reach 12-18 inches tall; short",
+            "flavor": "crisp"
+        },
+        "plant": {
+            "height": "short",
+            "spacing": "10-15 inches apart"
+        },
+        "supports": "Using a cage or trellis will help support growth.",
+        "diseases": {
+            "type": "String"
+        },
+        "pests": {
+            "type": "Aphids, horn-worms"
+        },
+        "companions": {
+            "plant": "Plant with chives or cilantro or Nasturtiums to deter slugs, aphids,",
+            "insects": "Ladybugs love to eat aphids."
+        },
+        "guide": {
+            "url": "https://www.gardeningknowhow.com/edible/vegetables/lettuce/growing-lettuce-containers.htm#:~:text=Some%20recommended%20varieties%20for%20growing,lettuce%20in%20containers%20is%20water."
+        }
+    }
+]
