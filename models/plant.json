@@ -66,7 +66,7 @@
             "height": "short",
             "spacing": "10-15 inches apart"
         },
-        "supports": "Using a cage or trellis will help support growth.",
+        "supports": "Grow bags, window boxes or large plastic buckets",
         "diseases": {
             "type": "String"
         },
@@ -79,6 +79,142 @@
         },
         "guide": {
             "url": "https://www.gardeningknowhow.com/edible/vegetables/lettuce/growing-lettuce-containers.htm#:~:text=Some%20recommended%20varieties%20for%20growing,lettuce%20in%20containers%20is%20water."
+        }
+    },
+    {
+        "name": "Potatoes",
+        "id": "3",
+        "variety": {
+            "id": "3.1",
+            "species": "Yukon Gold",
+            "color": "golden brown"
+        },
+        "_links": {
+            "url": "https://www.hunker.com/13427460/how-to-grow-yukon-gold-potatoes"
+        }, 
+        "season": {
+            "time": "Early Spring, (soil temp of at least 40 degrees Fahrenheit)",
+            "tips": "Planting in soil too cool or hot can cause fungal infeciton or rot"
+        },
+        "maturation": {
+            "days": "50 days after planting, once vines begin dying off."  
+        },
+        "light": "Full Sun",
+        "fruit": {
+            "size": "small, baseball-sized",
+            "flavor": "mild, earthy, creamy"
+        },
+        "plant": {
+            "height": "short",
+            "spacing": "10-15 inches apart"
+        },
+        "supports": "Grow bags or large plastic buckets that drain well",
+        "diseases": {
+            "type": "Early Blight, fungal infections",
+            "tips": "Don't overwater, Keep soil moist, not soggy. Have good airflow."
+        },
+        "pests": {
+            "type": "Colorado potato beetles, flea-beetles, aphids",
+            "tips": "Rinse off leaves with water to remove aphids"
+        },
+        "companions": {
+            "plant": "Plant with beans to fix nitrogen in the soil or with chives cilantro, parsley and thyme to deter pests, attract pollinators, and improve flavor of tubers.",
+            "insects": "Hoverflies and ladybugs will feast on aphids and flea-beetles."
+        },
+        "guide": {
+            "url": "https://www.thespruce.com/growing-potatoes-in-containers-848220"
+        }
+    },
+    {
+        "name": "Onions",
+        "id": "4",
+        "variety": {
+            "id": "4.1",
+            "species": "Utah Yellow Sweet Spanish",
+            "color": "Yellow"
+        },
+        "_links": {
+            "url": "https://www.rareseeds.com/store/vegetables/new-items-2019/yellow-sweet-spanish-onion?gclid=Cj0KCQjwmPSSBhCNARIsAH3cYgbFVhB5qg1g_KsmSG6OAzEcNAZa6JRqE2RcaEgp0-mMdOEzcCLHL1MaApuuEALw_wcB"
+        }, 
+        "season": {
+            "time": "Early to late Spring",
+            "tips": "Planting in soil too cool or hot can cause fungal infeciton or rot"
+        },
+        "maturation": {
+            "days": "When tops turn yellow and dry, harvest the bulbs, usually 65+ days after transplant."  
+        },
+        "light": "Full Sun",
+        "fruit": {
+            "size": "small, palm-sized bulbs",
+            "flavor": "mild, sweet, savory"
+        },
+        "plant": {
+            "height": "short",
+            "seed-depth": "1/4 inch",
+            "spacing": "4-6 inches apart",
+            "soil-temperature": "45-80 Degrees F"
+        },
+        "supports": "Grow bags in full sun, or window boxes south or west-facing for 6 hours of sun",
+        "diseases": {
+            "type": "Damping off, or early rot",
+            "tips": "Pick containers at least 10 inches deep with good drainage."
+        },
+        "pests": {
+            "type": "Onion maggots, though most insects avoid smelly onions!",
+            "tips": "insecticidal soap, though onions deter many pests by smell alone!"
+        },
+        "companions": {
+            "plant": "Herb: Summer Savory, encourages onion growth and increase sweetness.",
+            "insects": "Most will avoid the smelly onions!"
+        },
+        "guide": {
+            "url": "https://balconygardenweb.com/growing-onions-in-pots-onion-plant-care/"
+        }
+    },
+    {
+        "name": "Vining: Beans",
+        "id": "5",
+        "variety": {
+            "id": "5.1",
+            "species": "Calima French Bush Beans",
+            "color": "Green"
+        },
+        "_links": {
+            "url": "https://www.rareseeds.com/store/vegetables/new-items-2019/yellow-sweet-spanish-onion?gclid=Cj0KCQjwmPSSBhCNARIsAH3cYgbFVhB5qg1g_KsmSG6OAzEcNAZa6JRqE2RcaEgp0-mMdOEzcCLHL1MaApuuEALw_wcB"
+        }, 
+        "season": {
+            "time": "Late Spring-Early Summer",
+            "tips": "Sew directly in ground after soil reaches 48 degrees F."
+        },
+        "maturation": {
+            "days": "50-55 days"  
+        },
+        "light": "Full Sun",
+        "fruit": {
+            "size": "small, palm-sized bulbs",
+            "flavor": "mild, sweet, savory"
+        },
+        "plant": {
+            "height": "medium, 24 inches",
+            "seed-depth": "1 inch",
+            "spacing": "4 inches apart",
+            "ideal-temperature": "70-80 Degrees F"
+        },
+        "supports": "Grow bags in full sun",
+        "diseases": {
+            "type": "Powdery Mildew",
+            "tips": "Pick containers at least 10 inches deep with good drainage."
+        },
+        "pests": {
+            "type": "mealybugs, bean beetles, aphids",
+            "tips": "insecticidal soap, though onions deter many pests by smell alone!"
+        },
+        "companions": {
+            "plant": "Herb: Summer Savory, encourages onion growth and increase sweetness.",
+            "insects": "Most will avoid the smelly onions!"
+        },
+        "guide": {
+            "url": "https://balconygardenweb.com/growing-onions-in-pots-onion-plant-care/"
         }
     }
 ]
