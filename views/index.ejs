@@ -1,0 +1,32 @@
+<!-- // landing page:  -->
+<!-- will have a heading/header with title -->
+<!-- will have container with 3 buttons: get request to the page of data collections -->
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Garden Planner App</title>
+    </head>
+    <body>
+
+        <div class="head"> 
+            <h1>Garden Planner Landing Page</h1> 
+                <div>
+                    <p>Choose your garden type</p>
+                </div>
+        </div>
+
+    <div class="container">
+        <div class = button>
+            <ul>
+                <% for(let i=0; i < allPlants.length; i++) { %>
+                <!-- <li><a href="/">Raised Beds</a></li> -->
+                <li><a href="/">Containers</a></li>
+                <!-- <li><a href="/">Ground</a></li> -->
+              <%  } %>
+            </ul>
+        </div>
+    </div>
+    </body>
+</html>

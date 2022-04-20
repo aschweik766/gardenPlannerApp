@@ -9,14 +9,14 @@ router.get('/', (req, res) => {
     })
   })
   
-  router.get('/:id', (req, res) => {
+  router.get('/id', (req, res) => {
     Plant.findById(req.params.id).then(plant => {
       res.json(plant)
     })
   })
   
-router.get('/', (req, res)=> {
-    Plant.find({}).then(items => {res.render("index", {plantGroup: items})})
+router.get('/plant', (req, res)=> {
+    Plant.find({}).then(items => {res.render("index", {allPlants: Plant})})
 });
 
 

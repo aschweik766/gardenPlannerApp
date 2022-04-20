@@ -16,7 +16,7 @@ app.use(plantsController);
 
 
 //test app route://
-app.get('/test', (req, res)=> {res.send('hello-test')});
+// app.get('/test', (req, res)=> {res.send('hello-test')});
 
 const port = process.env.PORT || 4000
 
