@@ -1,20 +1,21 @@
 [
     {
         "name": "Tomatoes",
-        "id": "1",
+        "id": 1,
         "variety": {
-            "id": "1.1",
+            "id": 1.1,
             "recommendation": "Husky Red Cherry Tomato",
             "color": "red"
         },
         "img": {
-            "url": "string"
+            "url": "https://cdn.shopify.com/s/files/1/0257/4565/3811/products/husky-cherry-red-tomato.jpg?v=1642629971"
         },
         "_links": {
             "url": "https://bonnieplants.com/products/husky-red-cherry-tomato?_pos=2&_psq=cherry&_ss=e&_v=1.0"
         }, 
         "season": {
-            "time": "Spring, early Summer"
+            "time": "Spring, early Summer",
+            "tips": "Harvest your fruit before the first fall frost."
         },
         "maturation": {
             "days": "65 days post planting"  
@@ -26,11 +27,19 @@
         },
         "plant": {
             "height": "Mediumg, 24-48 inches",
-            "spacing": "36 inches apart"
+            "seedDepth":"1/8 inch",
+            "spacing": "36 inches apart",
+            "soilTemperature": "65 degrees F"
         },
         "supports": "Using a cage or trellis will help support growth.",
-        "diseases": "Early Rot",
-        "pests": "Aphids, horn-worms",
+        "diseases": {
+            "kind": "Early Blight and fungal diseases",
+            "tips": "Watch for browning fruit/leaves and remove these infected plants."
+        },
+        "pests": {
+            "kind": "Aphids, horn-worms",
+            "tips": "Keep well rinsed, or use an insecticidal soap on greenery."
+        },
         "companions": {
             "plant": "Plant with basil; it helps deter aphids, slugworms, hornworms",
             "insects": "Ladybugs love to eat aphids."
@@ -41,20 +50,21 @@
     },
     {
         "name": "Greens and Lettuces",
-        "id": "2",
+        "id": 2,
         "variety": {
-            "id": "2.1",
+            "id": 2.1,
             "species": "Green Leaf Lettuce",
             "color": "green"
         },
         "_links": {
-            "url": "https://bonnieplants.com/products/green-leaf-lettuce?_pos=4&_psq=let&_ss=e&_v=1.0"
+            "url": "https://i.pinimg.com/originals/00/0c/7f/000c7fe000f18f4ccb45ec7f49dd685f.jpg"
         }, 
         "img": {
-            "url": "string"
+            "url": "https://i0.wp.com/www.gardeningchannel.com/wp-content/uploads/2020/04/summer-bibb-lettuce.jpg?fit=600%2C400&ssl=1"
         },
         "season": {
-            "time": "Early Spring, Fall"
+            "time": "Early Spring, Fall",
+            "tips": "cool weather crop that wilts when it gets up to 80 degrees F"
         },
         "maturation": {
             "days": "21 days after planting"  
@@ -66,11 +76,19 @@
         },
         "plant": {
             "height": "short",
-            "spacing": "10-15 inches apart"
+            "seedDepth": "1/4 inch",
+            "spacing": "10-15 inches apart",
+            "soilTemperature": "40 degrees F"
         },
         "supports": "Grow bags, window boxes or large plastic buckets",
-        "diseases": "Early Rot",
-        "pests": "Aphids, horn-worms",
+        "diseases": {
+            "kind": "downy mildew",
+            "tips": "keep older leaves pruned back to avoid."
+        },
+        "pests": {
+            "kind": "slug-worms",
+            "tips": "Plant with radishes so worms eat unwanted radish leaves instead"
+        },
         "companions": {
             "plant": "Plant with chives or cilantro or Nasturtiums to deter slugs, aphids,",
             "insects": "Ladybugs love to eat aphids."
@@ -81,9 +99,9 @@
     },
     {
         "name": "Potatoes",
-        "id": "3",
+        "id": 3,
         "variety": {
-            "id": "3.1",
+            "id": 3.1,
             "species": "Yukon Gold",
             "color": "golden brown"
         },
@@ -91,7 +109,7 @@
             "url": "https://www.hunker.com/13427460/how-to-grow-yukon-gold-potatoes"
         }, 
         "img": {
-            "url": "string"
+            "url": "https://www.starkbros.com/images/dynamic/2981.jpg"
         },
         "season": {
             "time": "Early Spring, (soil temp of at least 40 degrees Fahrenheit)",
@@ -101,21 +119,23 @@
             "days": "50 days after planting, once vines begin dying off."  
         },
         "light": "Full Sun",
-        "fruit": {
+        "harvest": {
             "size": "small, baseball-sized",
-            "flavor": "mild, earthy, creamy"
+            "characteristics": "mild, earthy, creamy"
         },
         "plant": {
             "height": "short",
-            "spacing": "10-15 inches apart"
+            "seedDepth": "1/4 inch",
+            "spacing": "10-15 inches apart",
+            "soilTemperature": "40 degrees F"
         },
         "supports": "Grow bags or large plastic buckets that drain well",
         "diseases": {
-            "type": "Early Blight, fungal infections",
+            "kind": "Early Blight, fungal infections",
             "tips": "Don't overwater, Keep soil moist, not soggy. Have good airflow."
         },
         "pests": {
-            "type": "Colorado potato beetles, flea-beetles, aphids",
+            "kind": "Colorado potato beetles, flea-beetles, aphids",
             "tips": "Rinse off leaves with water to remove aphids"
         },
         "companions": {
@@ -128,15 +148,18 @@
     },
     {
         "name": "Onions",
-        "id": "4",
+        "id": 4,
         "variety": {
-            "id": "4.1",
+            "id": 4.1,
             "species": "Utah Yellow Sweet Spanish",
             "color": "Yellow"
         },
         "_links": {
             "url": "https://www.rareseeds.com/store/vegetables/new-items-2019/yellow-sweet-spanish-onion?gclid=Cj0KCQjwmPSSBhCNARIsAH3cYgbFVhB5qg1g_KsmSG6OAzEcNAZa6JRqE2RcaEgp0-mMdOEzcCLHL1MaApuuEALw_wcB"
         }, 
+        "img": {
+            "url": "https://i5.walmartimages.com/asr/3604a979-00e9-4cc2-9623-6703c9cba1c3.a450af18d5f6011e69631d8633e11c38.jpeg?odnHeight=612&odnWidth=612&odnBg=FFFFFF"
+        },
         "season": {
             "time": "Early to late Spring",
             "tips": "Planting in soil too cool or hot can cause fungal infeciton or rot"
@@ -151,17 +174,17 @@
         },
         "plant": {
             "height": "short",
-            "seed-depth": "1/4 inch",
+            "seedDepth": "1/4 inch",
             "spacing": "4-6 inches apart",
-            "soil-temperature": "45-80 Degrees F"
+            "soilTemperature": "45-80 Degrees F"
         },
         "supports": "Grow bags in full sun, or window boxes south or west-facing for 6 hours of sun",
         "diseases": {
-            "type": "Damping off, or early rot",
+            "kind": "Damping off, or early rot",
             "tips": "Pick containers at least 10 inches deep with good drainage."
         },
         "pests": {
-            "type": "Onion maggots, though most insects avoid smelly onions!",
+            "kind": "Onion maggots, though most insects avoid smelly onions!",
             "tips": "insecticidal soap, though onions deter many pests by smell alone!"
         },
         "companions": {
@@ -173,10 +196,10 @@
         }
     },
     {
-        "name": "Vining: Beans",
-        "id": "5",
+        "name": "Vining Beans",
+        "id": 5,
         "variety": {
-            "id": "5.1",
+            "id": 5.1,
             "species": "Calima French Bush Beans",
             "color": "Green"
         },
@@ -184,7 +207,7 @@
             "url": "https://www.rareseeds.com/store/vegetables/new-items-2019/yellow-sweet-spanish-onion?gclid=Cj0KCQjwmPSSBhCNARIsAH3cYgbFVhB5qg1g_KsmSG6OAzEcNAZa6JRqE2RcaEgp0-mMdOEzcCLHL1MaApuuEALw_wcB"
         }, 
         "img": {
-            "url": "string"
+            "url": "https://brownthumbmama.com/wp-content/uploads/2020/01/frenchFilet.jpg"
         },
         "season": {
             "time": "Late Spring-Early Summer",
@@ -194,23 +217,23 @@
             "days": "50-55 days"  
         },
         "light": "Full Sun",
-        "fruit": {
+        "harvest": {
             "size": "small, palm-sized bulbs",
-            "flavor": "mild, sweet, savory"
+            "characteristics": "mild, sweet, savory"
         },
         "plant": {
             "height": "medium, 24 inches",
-            "seed-depth": "1 inch",
+            "seedDepth": "1 inch",
             "spacing": "4 inches apart",
-            "ideal-temperature": "70-80 Degrees F"
+            "soilTemperature": "70-80 Degrees F"
         },
         "supports": "Grow bags in full sun",
         "diseases": {
-            "type": "Powdery Mildew",
+            "kind": "Powdery Mildew",
             "tips": "Pick containers at least 10 inches deep with good drainage."
         },
         "pests": {
-            "type": "mealybugs, bean beetles, aphids",
+            "kind": "mealybugs, bean beetles, aphids",
             "tips": "insecticidal soap, though onions deter many pests by smell alone!"
         },
         "companions": {

@@ -1,5 +1,6 @@
-const mongoose = require('../db/connection')
-const PlantSchema = new mongoose.Schema(
+const mongoose = require('../connection')
+
+const PlantsSchema = new mongoose.Schema(
         {
            name: {
                type: String,
@@ -22,7 +23,7 @@ const PlantSchema = new mongoose.Schema(
                tips: String,
            },
            maturation: {
-               days: Number,    
+               days: String,    
            },
            light: String,
            harvest: {
@@ -31,11 +32,19 @@ const PlantSchema = new mongoose.Schema(
            },
            plant: {
                height: String,
-               spacing: Number,
+               seedDepth: String,
+               spacing: String,
+               soilTemperature: String,
            },
            supports: String,
-           diseases: String,
-           pests: String,
+           diseases: {
+               kind: String,
+               tips: String,
+           },
+           pests: {
+               kind: String,
+               tips: String,
+           },
            companions: {
                plant: String,
                insects: String,
@@ -47,6 +56,6 @@ const PlantSchema = new mongoose.Schema(
         { timestamps: true }
 )
 
-const Plant = mongoose.model('Plant', PlantSchema)
+const Plant = mongoose.model('Plant', PlantsSchema);
 
-module.exports = Plant
+module.exports = Plant;

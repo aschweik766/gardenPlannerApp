@@ -1,12 +1,16 @@
-const mongoose = require("mongoose")
+const mongoose = require('mongoose')
+
+mongoose.Promise = Promise
 
 const mongoURI =
     process.env.NODE_ENV === 'production'
     ? process.env.DB_URL
-    : `mongodb://localhost:27107/gardenPlanner`
+    : 'mongodb://localhost/gardenPlanner'
 
-mongoose.connect(mongoURI, )
-.then((instance)=> {console.log(`connected to db: ${instance.connections[0].name}`)
-.catch((err)=> console.log(`connection to db failed due to: ${err}`))})
+mongoose.connect(mongoURI, {})
+    .then((instance) =>
+    console.log(`Connected to db: ${instance.connections[0].name}`)
+  )
+  .catch((error) => console.log('Connection failed!', error));
 
 module.exports = mongoose;
