@@ -1,0 +1,11 @@
+<h1>Click to learn about container gardening!</h1>
+
+<% allPlants.forEach(v => { %>
+    <div class="varieties">
+        <div class =""> 
+           <a href="/<%=v.name %>"> <%=v.name %> </a>
+            
+        </div>
+        <img src ="<%=v.img.url %>" height='200' width="220"/>
+    </div>
+<% }) %>
