@@ -11,10 +11,12 @@ const PlantsSchema = new mongoose.Schema(
                id: Number,
                recommendation: String,
                color: String,
+               img: String,
            },
            _links: {
                url: String,
            },
+           videos: String,
            img: {
                url: String,
             },

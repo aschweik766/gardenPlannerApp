@@ -1,11 +1,16 @@
-<h1>Click to learn about container gardening!</h1>
+<h1>Growing in Containers: Recommended Varieties and More</h1>
 
 <% allPlants.forEach(v => { %>
-    <div class="varieties">
-        <div class =""> 
-           <a href="/<%=v.name %>"> <%=v.name %> </a>
-            
+    <div class="card" style="width: 18rem;">
+        <img src="<%=v.img.url %>" height='200' width="220" class="card-img-top" alt="Image of Plant">
+        <div class="card-body">
+            <h5 class="card-title"> <%=v.name %> </h5>
+            <p class="card-text">See more about varieties that grow well in pots and containers.</p>
+            <a href="/<%=v.name %>" class="btn btn-primary"> Check out: <%=v.name %> </a>
         </div>
-        <img src ="<%=v.img.url %>" height='200' width="220"/>
-    </div>
+        </div>
+
 <% }) %>
+
+
+

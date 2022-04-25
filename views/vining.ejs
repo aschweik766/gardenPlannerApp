@@ -1,0 +1,19 @@
+<h1>Vining Plants in Containers: Guide</h1>
+
+<h5>
+    <ul> 
+        <% for(let i = 4; i < allPlants.length; i++) { %>
+             <li><%=allPlants[4].variety.recommendation %></li>
+             <li><%=allPlants[4].supports %> </li>
+            <li><%=allPlants[4].plant.soilTemperature %></li>
+            <li><%=allPlants[4].light %></li>
+            <li>
+                <a href="/buy/<%=i%>"> <%=allPlants[4]._links.url %> </a>
+            </li>
+            <li>
+                <img src=
+                "<%=allPlants[4].img.url %>" height="200"/>
+            </li>
+        <% } %>
+    </ul>
+</h5>

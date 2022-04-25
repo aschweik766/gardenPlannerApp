@@ -5,13 +5,15 @@
         "variety": {
             "id": 1.1,
             "recommendation": "Husky Red Cherry Tomato",
-            "color": "red"
+            "color": "red",
+            "img":  "https://cdn.shopify.com/s/files/1/0257/4565/3811/products/husky-cherry-red-tomato.jpg?v=1642629971"
         },
+        "videos": "https://www.youtube.com/watch?v=TyGTXMgSYvY",
         "img": {
-            "url": "https://cdn.shopify.com/s/files/1/0257/4565/3811/products/husky-cherry-red-tomato.jpg?v=1642629971"
+            "url": "https://cdn.pixabay.com/photo/2019/05/29/19/04/tomatoes-4238247_960_720.jpg"
         },
         "_links": {
-            "url": "https://bonnieplants.com/products/husky-red-cherry-tomato?_pos=2&_psq=cherry&_ss=e&_v=1.0"
+            "url": "https://bonnieplants.com/products/husky-red-cherry-tomato"
         }, 
         "season": {
             "time": "Spring, early Summer",
@@ -31,7 +33,7 @@
             "spacing": "36 inches apart",
             "soilTemperature": "65 degrees F"
         },
-        "supports": "Using a cage or trellis will help support growth.",
+        "supports": "Using a cage or trellis will help support growth. Recommend buying a Tomato transplant, then planting 1 plant per plot with consistent watering.",
         "diseases": {
             "kind": "Early Blight and fungal diseases",
             "tips": "Watch for browning fruit/leaves and remove these infected plants."
@@ -49,18 +51,20 @@
         }
     },
     {
-        "name": "Greens and Lettuces",
+        "name": "Greens",
         "id": 2,
         "variety": {
             "id": 2.1,
-            "species": "Green Leaf Lettuce",
-            "color": "green"
+            "recommendation": "Green Leaf Lettuce",
+            "color": "green",
+            "img": "https://i.pinimg.com/originals/00/0c/7f/000c7fe000f18f4ccb45ec7f49dd685f.jpg"
         },
         "_links": {
-            "url": "https://i.pinimg.com/originals/00/0c/7f/000c7fe000f18f4ccb45ec7f49dd685f.jpg"
+            "url": "https://www.victoryseeds.com/lettuce_waldmanns.html"
         }, 
+        "videos": "https://www.youtube.com/watch?v=AB1CMOBsm5Q",
         "img": {
-            "url": "https://i0.wp.com/www.gardeningchannel.com/wp-content/uploads/2020/04/summer-bibb-lettuce.jpg?fit=600%2C400&ssl=1"
+            "url": "https://cdn.pixabay.com/photo/2022/04/04/07/58/seedlings-7110591__340.jpg"
         },
         "season": {
             "time": "Early Spring, Fall",
@@ -78,12 +82,12 @@
             "height": "short",
             "seedDepth": "1/4 inch",
             "spacing": "10-15 inches apart",
-            "soilTemperature": "40 degrees F"
+            "soilTemperature": "40-60 degrees F"
         },
         "supports": "Grow bags, window boxes or large plastic buckets",
         "diseases": {
             "kind": "downy mildew",
-            "tips": "keep older leaves pruned back to avoid."
+            "tips": "keep older leaves pruned back to avoid fungal diseases."
         },
         "pests": {
             "kind": "slug-worms",
@@ -102,21 +106,23 @@
         "id": 3,
         "variety": {
             "id": 3.1,
-            "species": "Yukon Gold",
-            "color": "golden brown"
+            "recommendation": "Yukon Gold",
+            "color": "golden brown",
+            "img": "https://www.starkbros.com/images/dynamic/2981.jpg"
         },
         "_links": {
             "url": "https://www.hunker.com/13427460/how-to-grow-yukon-gold-potatoes"
-        }, 
+        },  
+        "videos": "https://www.youtube.com/watch?v=3Fg7nhSMlIk",
         "img": {
-            "url": "https://www.starkbros.com/images/dynamic/2981.jpg"
+            "url": "https://cdn.pixabay.com/photo/2016/08/11/08/43/potatoes-1585060_960_720.jpg"
         },
         "season": {
             "time": "Early Spring, (soil temp of at least 40 degrees Fahrenheit)",
             "tips": "Planting in soil too cool or hot can cause fungal infeciton or rot"
         },
         "maturation": {
-            "days": "50 days after planting, once vines begin dying off."  
+            "days": "50-70 days after planting, once vines begin dying off."  
         },
         "light": "Full Sun",
         "harvest": {
@@ -125,11 +131,11 @@
         },
         "plant": {
             "height": "short",
-            "seedDepth": "1/4 inch",
+            "seedDepth": "1 inch, organic or seed potatoes with eye-sprouts",
             "spacing": "10-15 inches apart",
             "soilTemperature": "40 degrees F"
         },
-        "supports": "Grow bags or large plastic buckets that drain well",
+        "supports": "Grow bags or large plastic buckets that drain well with depth of at least 12 inches. Plant 1-3 potatoes per 30 L pot.",
         "diseases": {
             "kind": "Early Blight, fungal infections",
             "tips": "Don't overwater, Keep soil moist, not soggy. Have good airflow."
@@ -139,7 +145,7 @@
             "tips": "Rinse off leaves with water to remove aphids"
         },
         "companions": {
-            "plant": "Plant with beans to fix nitrogen in the soil or with chives cilantro, parsley and thyme to deter pests, attract pollinators, and improve flavor of tubers.",
+            "plant": "Plant in a larger pot with beans to fix nitrogen in the soil or with chives cilantro, parsley and thyme to deter pests, attract pollinators, and improve flavor of tubers.",
             "insects": "Hoverflies and ladybugs will feast on aphids and flea-beetles."
         },
         "guide": {
@@ -151,14 +157,16 @@
         "id": 4,
         "variety": {
             "id": 4.1,
-            "species": "Utah Yellow Sweet Spanish",
-            "color": "Yellow"
+            "recommendation": "Utah Yellow Sweet Spanish",
+            "color": "Yellow",
+            "img": "https://i5.walmartimages.com/asr/3604a979-00e9-4cc2-9623-6703c9cba1c3.a450af18d5f6011e69631d8633e11c38.jpeg?odnHeight=612&odnWidth=612&odnBg=FFFFFF"
         },
         "_links": {
             "url": "https://www.rareseeds.com/store/vegetables/new-items-2019/yellow-sweet-spanish-onion?gclid=Cj0KCQjwmPSSBhCNARIsAH3cYgbFVhB5qg1g_KsmSG6OAzEcNAZa6JRqE2RcaEgp0-mMdOEzcCLHL1MaApuuEALw_wcB"
         }, 
+        "videos": "https://www.youtube.com/watch?v=J9gOp4kGD2Q&t=210s",
         "img": {
-            "url": "https://i5.walmartimages.com/asr/3604a979-00e9-4cc2-9623-6703c9cba1c3.a450af18d5f6011e69631d8633e11c38.jpeg?odnHeight=612&odnWidth=612&odnBg=FFFFFF"
+            "url": "https://cdn.pixabay.com/photo/2018/02/03/08/26/onion-3127137_960_720.jpg"
         },
         "season": {
             "time": "Early to late Spring",
@@ -184,64 +192,66 @@
             "tips": "Pick containers at least 10 inches deep with good drainage."
         },
         "pests": {
-            "kind": "Onion maggots, though most insects avoid smelly onions!",
-            "tips": "insecticidal soap, though onions deter many pests by smell alone!"
+            "kind": "Onion maggots, though most insects avoid smelly onions.",
+            "tips": "Spray with an nsecticidal soap."
         },
         "companions": {
             "plant": "Herb: Summer Savory, encourages onion growth and increase sweetness.",
-            "insects": "Most will avoid the smelly onions!"
+            "insects": "Most insects will avoid the smelly onions."
         },
         "guide": {
             "url": "https://balconygardenweb.com/growing-onions-in-pots-onion-plant-care/"
         }
     },
     {
-        "name": "Vining Beans",
+        "name": "Vining",
         "id": 5,
         "variety": {
             "id": 5.1,
-            "species": "Calima French Bush Beans",
-            "color": "Green"
+            "recommendation": "Blue Lake Bush Green Beans",
+            "color": "Green",
+            "img": "https://brownthumbmama.com/wp-content/uploads/2020/01/frenchFilet.jpg"
         },
         "_links": {
-            "url": "https://www.rareseeds.com/store/vegetables/new-items-2019/yellow-sweet-spanish-onion?gclid=Cj0KCQjwmPSSBhCNARIsAH3cYgbFVhB5qg1g_KsmSG6OAzEcNAZa6JRqE2RcaEgp0-mMdOEzcCLHL1MaApuuEALw_wcB"
+            "url": "https://www.burpee.com/bean-bush-blue-lake-274-prod000576.html"
         }, 
+        "videos": "https://www.youtube.com/watch?v=GhJ6J6M740M",
         "img": {
-            "url": "https://brownthumbmama.com/wp-content/uploads/2020/01/frenchFilet.jpg"
+            "url": "https://media.istockphoto.com/photos/unripe-bean-pods-picture-id594052372?k=20&m=594052372&s=612x612&w=0&h=ggS7WRcXf-tVS2U__NF_VFfgVi1TP14ve-YC8RcUFqU="
         },
         "season": {
             "time": "Late Spring-Early Summer",
-            "tips": "Sew directly in ground after soil reaches 48 degrees F."
+            "tips": "Sew directly in ground after soil reaches 60 degrees F."
         },
         "maturation": {
-            "days": "50-55 days"  
+            "days": "55-60 days"  
         },
         "light": "Full Sun",
         "harvest": {
-            "size": "small, palm-sized bulbs",
-            "characteristics": "mild, sweet, savory"
+            "size": "5-6 inches",
+            "characteristics": "tender, sweet"
         },
         "plant": {
-            "height": "medium, 24 inches",
+            "height": "medium, 20 inches",
             "seedDepth": "1 inch",
-            "spacing": "4 inches apart",
-            "soilTemperature": "70-80 Degrees F"
+            "spacing": "4-8 inches apart",
+            "soilTemperature": "60 Degrees F"
         },
-        "supports": "Grow bags in full sun",
+        "supports": "Grow bags or 12 inch buckets in full sun, 1-2 plants per pot",
         "diseases": {
             "kind": "Powdery Mildew",
-            "tips": "Pick containers at least 10 inches deep with good drainage."
+            "tips": "Pick containers at least 10 inches deep with good drainage and avoid croweded pots."
         },
         "pests": {
-            "kind": "mealybugs, bean beetles, aphids",
-            "tips": "insecticidal soap, though onions deter many pests by smell alone!"
+            "kind": "Aphids and Bean Leaf Beetles will eat leaves.",
+            "tips": "Plant with chives or rosemary or spray with insecticidal soap."
         },
         "companions": {
-            "plant": "Herb: Summer Savory, encourages onion growth and increase sweetness.",
-            "insects": "Most will avoid the smelly onions!"
+            "plant": "Flower: Marigolds, Zinnias and Nasturtiums can attract bees and lure away aphids.",
+            "insects": "Wasps like bright flowers and will feast on pests."
         },
         "guide": {
-            "url": "https://balconygardenweb.com/growing-onions-in-pots-onion-plant-care/"
+            "url": "https://www.gardeningchannel.com/how-to-grow-great-green-beans-in-containers/"
         }
     }
 ]

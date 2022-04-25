@@ -1,20 +1,23 @@
 const express = require('express');
-const methodOverride = require('method-override')
-const plantsController = require('./controllers/router')
+const cors = require("cors");
+const ejsLayouts = require('express-ejs-layouts');
+const methodOverride = require('method-override');
 
 
 const app = express();
+app.set('view engine', 'ejs');
 
+app.use(ejsLayouts);
 app.use(methodOverride('_method'))
-
+app.use(cors())
 app.use(express.urlencoded({extended: true}))
 app.use(express.json())
 
-app.set('view engine', 'ejs')
+
+
+const plantsController = require('./controllers/router')
 
 app.use(plantsController);
-
-
 //test app route://
 // app.get('/test', (req, res)=> {res.send('hello-test')});
 

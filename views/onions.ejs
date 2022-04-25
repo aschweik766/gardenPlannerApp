@@ -1,0 +1,19 @@
+<h1>Onions in Containers: Guide</h1>
+
+<h5>
+    <ul> 
+        <% for(let i = 4; i < allPlants.length; i++) { %>
+             <li><%=allPlants[3].variety.recommendation %></li>
+             <li><%=allPlants[3].supports %> </li>
+            <li><%=allPlants[3].plant.soilTemperature %></li>
+            <li><%=allPlants[3].light %></li>
+            <li>
+                <a href="/buy/<%=i%>"> <%=allPlants[3]._links.url %> </a>
+            </li>
+            <li>
+                <img src=
+                "<%=allPlants[3].img.url %>" height="200"/>
+            </li>
+        <% } %>
+    </ul>
+</h51
