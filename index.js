@@ -8,6 +8,7 @@ const app = express();
 app.set('view engine', 'ejs');
 
 app.use(ejsLayouts);
+app.use(express.static(__dirname + '/' + 'public'))
 app.use(methodOverride('_method'))
 app.use(cors())
 app.use(express.urlencoded({extended: true}))

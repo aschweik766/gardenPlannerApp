@@ -1,21 +1,38 @@
-<h1>Potatoes in Containers: Guide</h1>
+<h1>Potatoes in Containers: </h1>
 
-<h5>
+
+  
     <ul> 
         <% for(let i = 4; i < allPlants.length; i++) { %>
-            <h2>Plant Recommendation:</h2>
-             <li><%=allPlants[2].variety.recommendation %></li>
-             <h3>Grow in:</h3>
+           
+             <li><h1><%=allPlants[2].variety.recommendation %></h1></li>
+
+             <img src=
+             "<%=allPlants[2].variety.img %>" height="200"/>
+
+             <h2>Container and Supports: </h2>
+
              <li><%=allPlants[2].supports %> </li>
+
+             <h2>Planting Features:</h2>
             <li><%=allPlants[2].plant.soilTemperature %></li>
             <li><%=allPlants[2].light %></li>
+
             <li>
-                <a href="/buy/<%=i%>"> <%=allPlants[2]._links.url %> </a>
+                <a href="<%=allPlants[2]._links.url %>"> Shop Here </a>
             </li>
-            <li>
-                <img src=
-                "<%=allPlants[2].img.url %>" height="200"/>
-            </li>
+            <div>
+                <buttonn class="btn btn-primary" > More Gardeing Tips</button>
+            </div>
+            <div>
+                <a class="btn btn-success" href="/new"> Add Potatoes</a>
+            </div>
+            <div>
+                <a class="btn btn-warning" href="/edit"> Edit Potatoes</a>
+            </div>
+            <div>
+                <a class="btn btn-danger" href="/delete"> Delete Potatoes</a>
+            </div>
+            
         <% } %>
     </ul>
-</h5>

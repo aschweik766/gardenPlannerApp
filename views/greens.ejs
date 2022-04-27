@@ -1,19 +1,39 @@
-<h1> Greens and Lettuces in Containers: Guide</h1>
+<h1> Greens in Containers</h1>
 
 <h5>
     <ul> 
         <% for(let i = 4; i < allPlants.length; i++) { %>
-             <li><%=allPlants[1].variety.recommendation %></li>
+             <li><h2><%=allPlants[1].variety.recommendation %></h2></li>
+             
+             <img src=
+                "<%=allPlants[1].img.url %>" height="200"/>
+             <h2>Container and Supports: </h2>
+             
              <li><%=allPlants[1].supports %> </li>
+
+             <h2>Planting Features:</h2>
             <li><%=allPlants[1].plant.soilTemperature %></li>
             <li><%=allPlants[1].light %></li>
             <li>
-                <a href="/buy/<%=i%>"> <%=allPlants[1]._links.url %> </a>
+                <a href="<%=allPlants[1]._links.url %>"> Shop Here </a>
             </li>
-            <li>
-                <img src=
-                "<%=allPlants[1].img.url %>" height="200"/>
-            </li>
+
+
+            <div>
+                <buttonn class="btn btn-primary" > More Gardeing Tips</button>
+            </div>
+            <div>
+                <a class="btn btn-success" href="/new"> Add Greens</a>
+            </div>
+            <div>
+                <a class="btn btn-warning" href="/edit"> Edit Greens</a>
+            </div>
+            <div>
+                <a class="btn btn-danger" href="/delete"> Delete Greens</a>
+            </div>
+            
+                
+            
         <% } %>
     </ul>
 </h51

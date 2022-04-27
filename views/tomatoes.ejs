@@ -7,7 +7,7 @@
     <body>
 
  
-<h1> Tomatoes in Containers: Guide</h1>
+<h1> Tomatoes in Containers</h1>
 
 
     <ul> 
@@ -29,19 +29,22 @@
                     <a href="<%=allPlants[0]._links.url %>"> Shop Here </a>
                 </li>
                     <div>
-                        <buttonn class="btn btn-primary"> More Gardeing Tips</button>
+                        <buttonn class="btn btn-primary" > More Gardeing Tips</button>
                     </div>
                     <div>
-                        <button class="btn btn-success"> Add Tomatoes</button>
+                        <a class="btn btn-success" href="/new"> Add Tomatoes</a>
                     </div>
                     <div>
-                        <button class="btn btn-warning"> Edit Tomatoes</button>
+                        <a class="btn btn-warning" href="/<%=allPlants[0].variety.id %> "> Edit Tomatoes</a>
                     </div>
                     <div>
-                        <button class="btn btn-danger"> Delete Tomatoes</button>
+                        <a class="btn btn-danger" href="/delete"> Delete Tomatoes</a>
                     </div>
         <% } %>
     </ul>
+
+ 
+  
 
 </body>
 </html>

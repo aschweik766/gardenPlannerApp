@@ -1,19 +1,38 @@
-<h1>Onions in Containers: Guide</h1>
+<h1>Onions in Containers</h1>
 
 <h5>
     <ul> 
         <% for(let i = 4; i < allPlants.length; i++) { %>
-             <li><%=allPlants[3].variety.recommendation %></li>
-             <li><%=allPlants[3].supports %> </li>
+             <li><h2><%=allPlants[3].variety.recommendation %></h2></li>
+
+       
+                <img src=
+                "<%=allPlants[3].img.url %>" height="200"/>
+   
+
+            <h2>Container and Supports: </h2>
+            <li><%=allPlants[3].supports %> </li>
+
+            <h2>Planting Features:</h2>
             <li><%=allPlants[3].plant.soilTemperature %></li>
             <li><%=allPlants[3].light %></li>
             <li>
-                <a href="/buy/<%=i%>"> <%=allPlants[3]._links.url %> </a>
+                <a href="<%=allPlants[3]._links.url %>"> Shop Here </a>
             </li>
-            <li>
-                <img src=
-                "<%=allPlants[3].img.url %>" height="200"/>
-            </li>
+           
+
+            <div>
+                <buttonn class="btn btn-primary" > More Gardeing Tips</button>
+            </div>
+            <div>
+                <a class="btn btn-success" href="/new"> Add Onions</a>
+            </div>
+            <div>
+                <a class="btn btn-warning" href="/edit"> Edit Onions</a>
+            </div>
+            <div>
+                <a class="btn btn-danger" href="/delete"> Delete Onions</a>
+            </div>
         <% } %>
     </ul>
 </h51
