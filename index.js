@@ -17,8 +17,13 @@ app.use(express.json())
 
 
 const plantsController = require('./controllers/router')
+const varietyController = require('./controllers/varieties')
+
+// app.use('/gardenPlannerApp', plantsController);
+// app.use('/garden/varieties/', varietyController);
 
 app.use(plantsController);
+
 //test app route://
 // app.get('/test', (req, res)=> {res.send('hello-test')});
 

@@ -1,0 +1,138 @@
+[ 
+    {
+        "variety":"Blue Lake Bush Green Beans",
+        "vId": 5.1,
+        "color": "Green",
+        "img": "https://brownthumbmama.com/wp-content/uploads/2020/01/frenchFilet.jpg",
+        "_links": {
+            "url": "https://www.burpee.com/bean-bush-blue-lake-274-prod000576.html"
+            }, 
+        "season": {
+            "time": "Late Spring-Early Summer",
+            "tips": "Sew directly in ground after soil reaches 60 degrees F."
+        },
+        "maturation": {
+            "days": "55-60 days"  
+        },
+        "light": "Full Sun",
+        "harvest": {
+            "size": "5-6 inches",
+            "characteristics": "tender, sweet"
+        },
+        "plant": {
+            "height": "medium, 20 inches",
+            "seedDepth": "1 inch",
+            "spacing": "4-8 inches apart",
+            "soilTemperature": "60 Degrees F"
+        }
+    },
+    {
+        "variety": "Utah Yellow Sweet Spanish",
+        "vId": 4.1,
+        "color": "Yellow",
+        "img": "https://i5.walmartimages.com/asr/3604a979-00e9-4cc2-9623-6703c9cba1c3.a450af18d5f6011e69631d8633e11c38.jpeg?odnHeight=612&odnWidth=612&odnBg=FFFFFF",
+        "_links": {
+            "url": "https://www.rareseeds.com/store/vegetables/new-items-2019/yellow-sweet-spanish-onion?gclid=Cj0KCQjwmPSSBhCNARIsAH3cYgbFVhB5qg1g_KsmSG6OAzEcNAZa6JRqE2RcaEgp0-mMdOEzcCLHL1MaApuuEALw_wcB"
+        }, 
+        "season": {
+            "time": "Early to late Spring",
+            "tips": "Planting in soil too cool or hot can cause fungal infeciton or rot"
+        },
+        "maturation": {
+            "days": "When tops turn yellow and dry, harvest the bulbs, usually 65+ days after transplant."  
+        },
+        "light": "Full Sun",
+        "harvest": {
+            "size": "small, palm-sized bulbs",
+            "characteristics": "mild, sweet, savory"
+        },
+        "plant": {
+            "height": "short",
+            "seedDepth": "1/4 inch",
+            "spacing": "4-6 inches apart",
+            "soilTemperature": "45-80 Degrees F"
+        }
+    },
+    {
+        "variety": "Yukon Gold",
+        "vId": 3.1,
+        "color": "golden brown",
+        "img": "https://www.starkbros.com/images/dynamic/2981.jpg",
+        "_links": {
+            "url": "https://www.hunker.com/13427460/how-to-grow-yukon-gold-potatoes"
+        },  
+        "season": {
+            "time": "Early Spring, (soil temp of at least 40 degrees Fahrenheit)",
+            "tips": "Planting in soil too cool or hot can cause fungal infeciton or rot"
+        },
+        "maturation": {
+            "days": "50-70 days after planting, once vines begin dying off."  
+        },
+        "light": "Full Sun",
+        "harvest": {
+            "size": "small, baseball-sized",
+            "characteristics": "mild, earthy, creamy"
+        },
+        "plant": {
+            "height": "short",
+            "seedDepth": "1 inch, organic or seed potatoes with eye-sprouts",
+            "spacing": "10-15 inches apart",
+            "soilTemperature": "40 degrees F"
+        }
+    },
+    {
+        "variety": "Green Leaf Lettuce",
+        "vId": 2.1,
+        "color": "green",
+        "img": "https://i.pinimg.com/originals/00/0c/7f/000c7fe000f18f4ccb45ec7f49dd685f.jpg",
+        "_links": {
+            "url": "https://www.victoryseeds.com/lettuce_waldmanns.html"
+        }, 
+        "season": {
+            "time": "Early Spring, Fall",
+            "tips": "cool weather crop that wilts when it gets up to 80 degrees F"
+            },
+        "maturation": {
+            "days": "21 days after planting"  
+            },
+        "light": "Partial Shade--to Full Sun",
+        "harvest": {
+            "size": "Leaves will reach 12-18 inches tall; short",
+            "characteristics": "crisp"
+        },
+        "plant": {
+            "height": "short",
+            "seedDepth": "1/4 inch",
+            "spacing": "10-15 inches apart",
+            "soilTemperature": "40-60 degrees F"
+        }
+    },
+    {
+        "variety": "Husky Red Cherry Tomato",
+        "vId": 1.1,
+        "color": "red",
+        "img": "https://cdn.shopify.com/s/files/1/0257/4565/3811/products/husky-cherry-red-tomato.jpg?v=1642629971",
+        "_links": {
+            "url": "https://bonnieplants.com/products/husky-red-cherry-tomato"
+        }, 
+        "season": {
+            "time": "Spring, early Summer",
+            "tips": "Harvest your fruit before the first fall frost."
+        },
+        "maturation": {
+            "days": "65 days post planting"  
+        },
+        "light": "Full Sun",
+        "harvest": {
+            "size": "1 inches wide, small",
+            "characteristics": "sweet"
+        },
+        "plant": {
+            "height": "Mediumg, 24-48 inches",
+            "seedDepth":"1/8 inch",
+            "spacing": "36 inches apart",
+            "soilTemperature": "65 degrees F"
+            
+        }
+    }
+]

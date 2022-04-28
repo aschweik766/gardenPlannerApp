@@ -1,5 +1,5 @@
 const Plant = require('./models/plant-model')
-const seedData = require('../db/plant.json')
+const seedData = require('../db/plant.json');
     console.log(seedData);
 
 
@@ -11,3 +11,5 @@ Plant.deleteMany({})
     .finally(() => {
         process.exit()
     });
+
+

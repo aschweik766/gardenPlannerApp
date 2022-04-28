@@ -4,16 +4,16 @@
         <% for(let i = 4; i < allPlants.length; i++) { %>
              <li><h2><%=allPlants[4].variety.recommendation %></h2></li>
              <img src=
-                "<%=allPlants[4].img.url %>" height="200"/>
+                "<%=allPlants[4].variety.img %>" height="200"/>
            
             <h2>Container and Supports: </h2>
             <li><%=allPlants[4].supports %> </li>
 
             <h2>Planting Features:</h2>
-            <li><%=allPlants[4].plant.soilTemperature %></li>
-            <li><%=allPlants[4].light %></li>
+            <li><%=allPlants[4].variety.plant.soilTemperature %></li>
+            <li><%=allPlants[4].variety.light %></li>
             <li>
-                <a href="<%=allPlants[4]._links.url %>"> Shop Here </a>
+                <a href="<%=allPlants[4].variety._links.url %>"> Shop Here </a>
             </li>
                 
         <% } %>

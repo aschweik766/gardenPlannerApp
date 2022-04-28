@@ -1,18 +1,29 @@
-<link rel="stylesheet" type="text/css" href="./style.css">
+<link rel="stylesheet" type="" href="./style.css">
 
-<h1>Growing in Containers: Recommended Varieties and More</h1>
+
+<body>
+<h1>Growing in Containers</h1>
 
 <% allPlants.forEach(v => { %>
     <div class="card" style="width: 18rem;">
         <img src="<%=v.img.url %>" height='200' width="220" class="card-img-top" alt="Image of Plant">
         <div class="card-body">
             <h5 class="card-title"> <%=v.name %> </h5>
-            <p class="card-text">See more about varieties that grow well in pots and containers.</p>
-            <a href="/<%=v.name %>" class="btn btn-primary"> Check out: <%=v.name %> </a>
+            <p class="card-text">See more about our top pick for container growing.</p>
+            <a href="/<%=v.name %>" class="btn btn-primary"> See More: <%=v.name %> </a>
+            <div class = card-btns>
+                <a class="btn btn-warning" href="/<%=v.id %> "> Edit Group</a>
+                
+            </div>
         </div>
         </div>
 
 <% }) %>
 
-
+<div>
+    <a class="btn btn-success" href="/new"> Add New Plant</a>
+    <a class="btn btn-danger" href="/delete"> Delete Group</a>
+</div>
+        
+</body>
 

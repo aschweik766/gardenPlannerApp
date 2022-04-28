@@ -15,11 +15,11 @@
              <li><%=allPlants[2].supports %> </li>
 
              <h2>Planting Features:</h2>
-            <li><%=allPlants[2].plant.soilTemperature %></li>
-            <li><%=allPlants[2].light %></li>
+            <li><%=allPlants[2].variety.plant.soilTemperature %></li>
+            <li><%=allPlants[2].variety.light %></li>
 
             <li>
-                <a href="<%=allPlants[2]._links.url %>"> Shop Here </a>
+                <a href="<%=allPlants[2].variety._links.url %>"> Shop Here </a>
             </li>
             <div>
                 <buttonn class="btn btn-primary" > More Gardeing Tips</button>
