@@ -54,6 +54,15 @@ router.put('/:id', (req, res) => {
       .catch(console.error)
 })
 
+//delete//
+
+router.delete('/:id', (req, res) => {
+  Variety.findOneAndRemove(
+      {_id: req.params.id},
+      )
+      .then( () => res.redirect('/'))
+      .catch(console.error)
+})
 
 
 

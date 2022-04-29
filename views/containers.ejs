@@ -1,34 +1,32 @@
-<link rel="stylesheet" type="" href="../public/style.css">
+<link rel="stylesheet" type="text/css" href="../public/style.css">
 
 
 <body>
-<h1>Growing in Containers</h1>
-<div class="title-banner">
-<div class="row-align-items-center">
-    <div class="col"></div>
-    <div class="col">
-       <p>Recommend using any of these 5 plant varieties for containers. 
-            Containers should be sized for the plant type and generally have 
-            good drainage and aeration. Using fertilizers such as fish fertilizer,
-            or plant specific fertilizers at onset of planting seeds or transplants is a good start.</p> 
+<div class="container-fluid" >
+    <h1 class="display-3"class="text-center">Top 5 Favorites for Growing in Containers</h1>
+        <div class="title-banner">
+            <div class="row-justify-content-center">
+                <div class="border border-dark p-2 mb-3">
+                <p class="text-center">
+                    Recommend using any of these 5 plant varieties for containers. 
+                    Containers should be sized for the plant type and generally have 
+                    good drainage and aeration. Using fertilizers such as fish fertilizer,
+                    or plant specific fertilizers at onset of planting seeds or transplants is a good start.
+                </p> </div>
             </div>
-    <div class="col"></div>
-</div>
+        </div>
 </div>
 <div class="container-fluid">
-    <div class="row align-items-center ">  
+    <div class="row justify-content-center ">  
         <% allPlants.forEach(v => { %>
         
                 <div class="col-2 g-2">
-                    <div class="card" style="width: 18rem;">
+                    <div class="card"  style="background-color:antiquewhite; width: 18rem; margin:auto;">
                         <img src="<%=v.img.url %>" height='200' width="220" class="card-img-top" alt="Image of Plant">
                         <div class="card-body">
                             <h5 class="card-title"> <%=v.name %> </h5>
                             <p class="card-text">See more about our top pick for container growing.</p>
                             <a href="/gardenPlanner/Plant/containers/<%=v.name %>" class="btn btn-primary"> See More: <%=v.name %> </a>
-                            <div class = card-btns>
-                                <a class="btn btn-warning" href="/<%=v.id %> "> Edit Group</a>
-                            </div>
                         </div>
                     </div>
                 </div>

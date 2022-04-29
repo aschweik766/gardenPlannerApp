@@ -1,41 +1,97 @@
 <html>
-<body>
+    <head>
+        <link rel="stylesheet" type="text/css" href="../public/style.css">
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+    </head>
+    
+<body class="container-fluid">
+    <div class = row>
+        <div class="col"></div>
+        <div class = col>
+            <h1 class="display-3">Top Pick: Tomatoes</h1> 
+        </div>
+        <div class="col"></div>
+    </div>
 
- 
-<h1> Tomatoes in Containers</h1>
-
-
+    <div class="container">
+        <img src="https://media.baamboozle.com/uploads/images/329012/1617703959_75894_gif-url.gif" class="rounded float-end" height="400" width="400" alt="onion gif">
+    </div>
     <ul> 
         <% for(let i = 4; i < allPlants.length; i++) { %>
             
-             <li> <h2><%=allPlants[0].variety.recommendation %></h2></li>
+             <h1 class="display-6"><%=allPlants[0].variety.recommendation %></h1>
          
                 <img src=
-                "<%=allPlants[0].variety.img %>" height="200"/>
+                "<%=allPlants[0].variety.img %>" height="300"/>
 
-                <h2>Container and Supports: </h2>
+                <h3 class="display-6">Container and Supports: </h3>
             
                 <li><%=allPlants[0].supports %> </li>
-                <h2>Planting Features:</h2>
+                <h1 class="display-6">Plant Features:</h1>
 
-                <li><%=allPlants[0].variety.plant.soilTemperature %></li>
+                <li><%=allPlants[0].variety.season.time %></li>
+                <li><%=allPlants[0].variety.season.tips %></li>
                 <li><%=allPlants[0].variety.light %></li>
-                    <div>
-                    <a class="btn btn-warning" href="<%=allPlants[0].variety._links.url %>"> Shop Here </a>
-                    </div>
-                    <div>
-                        <buttonn class="btn btn-primary" > More Gardeing Tips</button>
-                    </div>
-                    
-                    
+                <li><%=allPlants[0].variety.maturation.days %></li>
+                <li><%=allPlants[0].variety.harvest.size %></li>
+                <li><%=allPlants[0].variety.plant.height %></li>
+                <li><%=allPlants[0].variety.plant.seedDepth %></li>
+                <li><%=allPlants[0].variety.plant.spacing %></li>
+                <li><%=allPlants[0].variety.plant.soilTemperature %></li>
                    
             <% } %>
     </ul>
-    <div class="add-btn">
-        <a class="btn btn-success" href="/gardenPlanner/variety/"> Edit Varieties</a>
-    </div>
- 
-  
 
+<div>
+    <a class="btn btn-warning" href="<%=allPlants[0].variety._links.url %>"> Shop Here </a>
+</div>
+<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#tipsModal" >More Tips</button>
+<div class="modal fade" id="tipsModal" tabindex="-1" aria-label="modal-title" aria-hidden="true"> 
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="staticBackdropLabel">Videos, Info and Tips</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <p>Check out tips from this gardener.
+                    <span><iframe width="460" height="215" src="https://www.youtube.com/embed/TyGTXMgSYvY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></span>
+                    <span>
+                        <ul>
+                            <li><h4>Planting Guide</h4>
+                                <a class="btn btn-primary" href="https://www.thespruce.com/tips-for-growing-tomatoes-in-containers-848216">See Blog</a></li>
+                            <li><h4>Pests</h4><%=allPlants[0].pests.kind %></li>
+                            <li><h4>Pest Prevention</h4><%=allPlants[0].pests.tips %></li>
+                            <h4>Companions</h4>
+                            <li><%=allPlants[0].companions.plant %></li>
+                            <li><%=allPlants[0].companions.insects %></li>
+                            
+                                
+                            
+                        </ul>
+                    </span>
+                </p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="row">
+    <div class="col"></div>
+    <div class="col">
+        <h1 class="display-6">Edit or Add new Varieties <span class="badge bg-success">
+            <div class="add-btn">
+                 <a class="btn btn-success" href="/gardenPlanner/variety/"> Varieties</a>
+             </div> 
+         </span></h3>
+    </div>
+    <div class="col"></div>
+</div>
 </body>
 </html>

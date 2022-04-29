@@ -1,7 +1,6 @@
 const express = require('express');
 const res = require('express/lib/response');
 const Plant = require('../db/models/plant-model')
-// const Varieties = require('')
 
 const router = express.Router();
 
