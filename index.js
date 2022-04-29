@@ -16,13 +16,15 @@ app.use(express.json())
 
 
 
-const plantsController = require('./controllers/router')
-const varietyController = require('./controllers/varieties')
+const plantControllers = require('./controllers/router')
+const varietyControllers = require('./controllers/varieties')
 
 // app.use('/gardenPlannerApp', plantsController);
 // app.use('/garden/varieties/', varietyController);
 
-app.use(plantsController);
+app.get('/favicon.ico', (req, res) => {res.send("dummy")})
+app.use('/gardenPlanner/plant', plantControllers);
+app.use('/gardenPlanner/variety',varietyControllers);
 
 //test app route://
 // app.get('/test', (req, res)=> {res.send('hello-test')});

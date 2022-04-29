@@ -1,0 +1,19 @@
+<h1>Edit Plant Information</h1>
+
+
+<form class = "align-items-center" action="gardenPlanner/variety/<%=id%>?_method=PUT" method="POST">
+<div class = "col-auto">
+
+    <label class="" for="img">Edit Image:</label>
+    <input class="form-control" type="text" name="img" value="<%=img %>" aria-label="Edit image here..."/>
+
+    <label class="" for="buy">Links for buying:</label>
+    <input class="form-control" type="text" name="buy" value="<%=_links.url %>" aria-label="Your links here..."/>      
+
+</div>
+    <input class='btn btn-success' type="submit"/>
+</form>
+<a class='btn btn-warning' href="/gardenPlanner/variety">Cancel</a>
+
+
+

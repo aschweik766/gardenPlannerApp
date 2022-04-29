@@ -1,3 +1,7 @@
+
+
+// original
+
 const express = require('express');
 const res = require('express/lib/response');
 const Plant = require('../db/models/plant-model')
@@ -5,12 +9,12 @@ const Plant = require('../db/models/plant-model')
 
 const router = express.Router();
 
-// router.get('/', (req, res) => {
-//     Plant.find({}).then(plants => {
-//       res.json(plants)
-//     })
-//   })
-router.get('/', (req, res)=> {
+router.get('/', (req, res) => {
+    Plant.find({}).then(plants => {
+      res.json(plants)
+    })
+  })
+router.get('/gardenPlannerApp', (req, res)=> {
   Plant.find({}).then(items => {res.render("index", {allPlants: items})})
 });  
   
@@ -27,23 +31,23 @@ router.get('/containers', (req, res)=> {
 
 //get custom data from each 5 plant card varieties//
 
-router.get("/containers/tomatoes", (req, res) => {
+router.get("/tomatoes", (req, res) => {
   Plant.find({}).then(items => {res.render("tomatoes", {allPlants: items})}) 
 });
 
-router.get("/containers/greens", (req, res) => {
+router.get("/greens", (req, res) => {
   Plant.find({}).then(items => {res.render("greens", {allPlants: items})}) 
 });
 
-router.get("/containers/potatoes", (req, res) => {
+router.get("/potatoes", (req, res) => {
   Plant.find({}).then(items => {res.render("potatoes", {allPlants: items})}) 
 });
 
-router.get("/containers/onions", (req, res) => {
+router.get("/onions", (req, res) => {
   Plant.find({}).then(items => {res.render("onions", {allPlants: items})}) 
 });
 
-router.get("/containers/vining", (req, res) => {
+router.get("/vining", (req, res) => {
   Plant.find({}).then(items => {res.render("vining", {allPlants: items})}) 
 });
 
@@ -68,7 +72,7 @@ router.post('/add', (req, res) => {
     Plant.create(req.body)  
     console.log(req.body)
     .then(items => {
-        res.redirect('/')
+        res.redirect('/containers')
   })
   .catch(console.error)
 });
@@ -94,9 +98,6 @@ router.delete('/:id', (req, res) => {
       .then( () => res.redirect('/containers'))
       .catch(console.error)
 })
-
-
-
 
 
 

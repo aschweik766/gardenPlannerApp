@@ -5,14 +5,13 @@ body {
 .card {
     border: 3px black solid;
     background-color: rgb(229, 211, 133);
-    padding: 20px;
+    padding: 8px;
     border-radius: 5px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+    margin: 20px;
+    justify-content: center;
 }
 li {
-    display: flex;
+    display: grid;
     flex-direction: column;
     justify-content: space-between;
 }
@@ -23,4 +22,14 @@ h1 {
     font-family: 'Caudex', serif;
     font-weight: bold;
     font-size: 60px;
+    color:antiquewhite;
 }
+.add-btn {
+    justify-content: space-evenly;
+    padding: 20px;
+}
+.del-btn {
+    justify-content: space-evenly;
+    padding: 20px;
+}
+

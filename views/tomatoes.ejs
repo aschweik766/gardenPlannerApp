@@ -1,5 +1,5 @@
 <html>
-<body class = "views-recs">
+<body>
 
  
 <h1> Tomatoes in Containers</h1>
@@ -7,6 +7,7 @@
 
     <ul> 
         <% for(let i = 4; i < allPlants.length; i++) { %>
+            
              <li> <h2><%=allPlants[0].variety.recommendation %></h2></li>
          
                 <img src=
@@ -25,13 +26,14 @@
                     <div>
                         <buttonn class="btn btn-primary" > More Gardeing Tips</button>
                     </div>
-                    <div>
-                        <a class="btn btn-success" href="/new"> Add Tomatoes</a>
-                    </div>
+                    
+                    
                    
             <% } %>
     </ul>
-
+    <div class="add-btn">
+        <a class="btn btn-success" href="/gardenPlanner/variety/"> Edit Varieties</a>
+    </div>
  
   
 

@@ -12,21 +12,16 @@
             <h2>Planting Features:</h2>
             <li><%=allPlants[4].variety.plant.soilTemperature %></li>
             <li><%=allPlants[4].variety.light %></li>
-            <li>
-                <a href="<%=allPlants[4].variety._links.url %>"> Shop Here </a>
-            </li>
+            
+                <a class="btn btn-warning" href="<%=allPlants[4].variety._links.url %>"> Shop Here </a>
+          
                 
         <% } %>
     </ul>
 <div>
     <buttonn class="btn btn-primary" > More Gardeing Tips</button>
 </div>
-<div>
-    <a class="btn btn-success" href="/new"> Add Vining Plants</a>
-</div>
-<div>
-    <a class="btn btn-warning" href="/edit"> Edit Vining Plants</a>
-</div>
-<div>
-    <a class="btn btn-danger" href="/delete"> Delete Vining Plants</a>
+
+<div class="add-btn">
+    <a class="btn btn-success" href="/gardenPlanner/variety/"> Edit Varieties</a>
 </div>
