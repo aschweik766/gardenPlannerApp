@@ -1,7 +1,7 @@
 <link rel="stylesheet" type="text/css" href="../public/style.css">
 <h1>Add New Recommendation</h1> 
 
-<form class ="" action="/gardenPlanner/variety/new" method="POST">
+<form class ="" action="/gardenPlanner/variety" method="POST">
     <div class = "align-items-center">
         <label class="" for ="variety">New Plant:</label>
         <input class ="" type="text" name="variety"/>
@@ -9,14 +9,8 @@
         <label class ="" for ="img">Image: </label>
         <input class="" type="text" name="img"/>
 
-        <label class="" for="supports">Supports:</label>
-        <input class="" type="text" name="supports"/>
-
-        <label class="" for="light">Light Needs:</label>
-        <input class="" type="text" name="light"/>
-
-        <label class="" for="_links">Link to Buy:</label>
-        <input class="" type="text" name="_links"/>
+        <label class="" for="_links.url">Link to Buy:</label>
+        <input class="" type="text" name="_links.url"/>
     </div>
         <input class ="btn btn-success" type="submit"/>
 </form>

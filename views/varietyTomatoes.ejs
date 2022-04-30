@@ -16,11 +16,15 @@
               
                <img src = "<%=v.img %>" height='200' width="220" class="card-img-top" alt="Image of Plant">
                <div class="card-body">
+                   
     
                     <a class = "btn btn-primary" href = "/gardenPlanner/variety/<%=v.id %>">Edit</a>
-                    <!-- <a class = "font" href = "/button">delete</a> -->
+
+                    <div>
+                        <a class="btn btn-warning" href="<%=v._links.url %>"> Shop Here </a>
+                    </div>
     
-                    <form class='' action="/gardenPlanner/variety/<%=v.id %>?_method=DELETE" method ="POST">
+                    <form  action="/gardenPlanner/variety/<%=v.id %>?_method=DELETE" method ="POST">
                         <input 
                             class="btn btn-danger"
                             type="submit"

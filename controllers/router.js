@@ -57,42 +57,42 @@ router.get('/:id', (req, res)=> {
   })
 });
 
-router.get('/new', (req, res)=> {res.render('new', items);
-});
+// router.get('/new', (req, res)=> {res.render('new', items);
+// });
 //create/POST/
 
-router.post('/add', (req, res) => {
-    console.log('in posting route, this is new object:')
+// router.post('/add', (req, res) => {
+//     console.log('in posting route, this is new object:')
   
-    Plant.create(req.body)  
-    console.log(req.body)
-    .then(items => {
-        res.redirect('/')
-  })
-  .catch(console.error)
-});
+//     Plant.create(req.body)  
+//     console.log(req.body)
+//     .then(items => {
+//         res.redirect('/')
+//   })
+//   .catch(console.error)
+// });
 
 
 //update/edit/PUT/
 
-router.put('/:id', (req, res) => {
-  console.log(req.params.id)
-  console.log(req.body)
-  Plant.findOneAndUpdate({ _id: req.params.id }, req.body).then(items =>
-      Plant.find({}).then(items => {
-        res.redirect('/containers')
-      })
-    )
-})
+// router.put('/:id', (req, res) => {
+//   console.log(req.params.id)
+//   console.log(req.body)
+//   Plant.findOneAndUpdate({ _id: req.params.id }, req.body).then(items =>
+//       Plant.find({}).then(items => {
+//         res.redirect('/containers')
+//       })
+//     )
+// })
 // //delete/
 
-router.delete('/:id', (req, res) => {
-  Plant.findOneAndRemove(
-      {_id: req.params.id},
-      )
-      .then( () => res.redirect('/containers'))
-      .catch(console.error)
-})
+// router.delete('/:id', (req, res) => {
+//   Plant.findOneAndRemove(
+//       {_id: req.params.id},
+//       )
+//       .then( () => res.redirect('/containers'))
+//       .catch(console.error)
+// })
 
 
 
