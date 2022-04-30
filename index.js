@@ -25,7 +25,7 @@ app.use('/gardenPlanner/variety',varietyControllers);
 //test app route://
 // app.get('/test', (req, res)=> {res.send('hello-test')});
 
-const port = process.env.PORT || 4000
+const port = process.env.PORT || 3000
 
 app.listen(port, ()=> {
     console.log(`server running on port: ${port}`)
