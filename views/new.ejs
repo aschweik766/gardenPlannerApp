@@ -1,17 +1,19 @@
 <link rel="stylesheet" type="text/css" href="../public/style.css">
-<h1>Add New Recommendation</h1> 
+<h1 class="display-4">Add New Recommendation</h1> 
 
+<div style="background-color:sandybrown; margin: 30px; padding: 30px; border: 5px salmon solid; border-radius: 5px;">
 <form class ="" action="/gardenPlanner/variety" method="POST">
     <div class = "align-items-center">
-        <label class="" for ="variety">New Plant:</label>
+        <label class="" for ="variety"> <h1 class="display-6">New Plant:</h1></label>
         <input class ="" type="text" name="variety"/>
 
-        <label class ="" for ="img">Image: </label>
+        <label class ="" for ="img"> <h1 class="display-6">Image: </h1></label>
         <input class="" type="text" name="img"/>
 
-        <label class="" for="_links.url">Link to Buy:</label>
+        <label class="" for="_links.url"> <h1 class="display-6">Link to Buy:</h1></label>
         <input class="" type="text" name="_links.url"/>
     </div>
-        <input class ="btn btn-success" type="submit"/>
+        <input class ="btn btn-success" style="margin: 10px;" type="submit"/>
 </form>
-<a class="btn btn-warning" href="/gardenPlanner/variety">Cancel</a>
+<a class="btn btn-warning" style="margin: 10px;" href="/gardenPlanner/variety">Cancel</a>
+</div>

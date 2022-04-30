@@ -24,11 +24,11 @@
     </div>
     <ul> 
         <% for(let i = 4; i < allPlants.length; i++) { %>
-            
+            <div class="card" style="background-color:rgb(244, 237, 193); padding: 25px; border:2px rgb(10, 143, 78) solid; border-radius: 30px;">
              <h1 class="display-6"><%=allPlants[3].variety.recommendation %></h1>
          
                 <img src=
-                "<%=allPlants[3].variety.img %>" height="300"/>
+                "<%=allPlants[3].variety.img %>" height="300" width="350"/>
 
                 <h3 class="display-6">Container and Supports: </h3>
             
@@ -44,14 +44,14 @@
                 <li><%=allPlants[3].variety.plant.seedDepth %></li>
                 <li><%=allPlants[3].variety.plant.spacing %></li>
                 <li><%=allPlants[3].variety.plant.soilTemperature %></li>
-                   
+                <div>
+                    <a class="btn btn-warning" href="<%=allPlants[3].variety._links.url %>"> Shop Here </a>
+                </div>
+                <div> <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#tipsModal" >More Tips</button></div>
             <% } %>
     </ul>
-
-<div>
-    <a class="btn btn-warning" href="<%=allPlants[3].variety._links.url %>"> Shop Here </a>
 </div>
-<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#tipsModal" >More Tips</button>
+
 <div class="modal fade" id="tipsModal" tabindex="-1" aria-label="modal-title" aria-hidden="true"> 
     <div class="modal-dialog">
         <div class="modal-content">

@@ -1,18 +1,18 @@
 <link rel="stylesheet" type="text/css" href="../public/style.css">
 
 
-<body>
+<body style="background-image: linear-gradient(rgb(228, 200, 148), rgb(148, 224, 148)); background-repeat: no-repeat; background-color:rgb(148, 224, 148);">
 <div class="container-fluid" >
     <h1 class="display-3"class="text-center">Top 5 Favorites for Growing in Containers</h1>
         <div class="title-banner">
             <div class="row-justify-content-center">
-                <div class="border border-dark p-2 mb-3">
-                <p class="text-center">
-                    Recommend using any of these 5 plant varieties for containers. 
-                    Containers should be sized for the plant type and generally have 
-                    good drainage and aeration. Using fertilizers such as fish fertilizer,
-                    or plant specific fertilizers at onset of planting seeds or transplants is a good start.
-                </p> </div>
+                <div class="border border-dark p-2 mb-3" style="margin:auto;">
+                <ul class="text-center" style="margin: 10px; list-style: none; ">
+                    <li> <h5>We recommend using any of these favorite  plant varieties for container gardening. </h5></li> 
+                    <li> <h5> Containers should be sized for the plant type and generally have 
+                    good drainage and aeration.</h5></li>  <li><h5>Using fertilizers such as fish fertilizer,
+                    or plant specific fertilizers at onset of planting seeds or transplants is a good starting practice.</h5></li> 
+                </ul> </div>
             </div>
         </div>
 </div>
@@ -21,7 +21,7 @@
         <% allPlants.forEach(v => { %>
         
                 <div class="col-2 g-2">
-                    <div class="card"  style="background-color:antiquewhite; width: 18rem; margin:auto;">
+                    <div class="card"  style="background-color:sandybrown; width: 18rem; margin:10px;">
                         <img src="<%=v.img.url %>" height='200' width="220" class="card-img-top" alt="Image of Plant">
                         <div class="card-body">
                             <h5 class="card-title"> <%=v.name %> </h5>

@@ -6,22 +6,19 @@
         <title>Garden Planner App</title>
 
     </head>
-    <body style="background-color:rgb(249, 235, 195);">
+    <body style="background-image: linear-gradient(rgb(228, 200, 148), rgb(148, 224, 148)); background-repeat: no-repeat; background-color:rgb(148, 224, 148);">
 
         <div class="head"> 
-            <h1 class="display-5"> Welcome to Garden Planner</h1> 
-                <div>
-                    <p class="title-banner"> <h3>Select your gardening preference</h3></p>
-                </div>
+            <h1 class="display-3"> Welcome to Garden Planner</h1> 
         </div>
 
-    <div class="container">
+    <div class="container" >
         <div class="row">
             <div class="col">
               <div class="card" style="background-color:rgb(81, 182, 105);">
                 <div class="card-body">
                   <h5 class="card-title">Raised Beds</h5>
-                  <a href="#" class="btn btn-primary">Select</a>
+                  <a href="#" class="btn btn-success">Select</a>
                 </div>
               </div>
             </div>
@@ -29,7 +26,7 @@
               <div class="card" style="background-color:rgb(81, 182, 105);" >
                 <div class="card-body">
                   <h5 class="card-title">Containers and Pots</h5>
-                  <a href="/gardenPlanner/Plant/containers" class="btn btn-primary">Select</a>
+                  <a href="/gardenPlanner/Plant/containers" class="btn btn-success">Select</a>
                 </div>
               </div>
             </div>
@@ -37,7 +34,7 @@
             <div class="card" style="background-color:rgb(81, 182, 105);">
               <div class="card-body">
                 <h5 class="card-title">Rows in the Ground</h5>
-                <a href="#" class="btn btn-primary">Select</a>
+                <a href="#" class="btn btn-success">Select</a>
               </div>
             </div>
           </div>
@@ -45,29 +42,31 @@
 
     </div>
 
-<div class="container-sm" >
-    <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
-      <div class="carousel-inner" >
-        <div class="carousel-item active" data-bs-interval="10000">
-          <img src="https://cdn.pixabay.com/photo/2020/06/27/09/01/self-cultivation-5345147_960_720.jpg" class="d-block w-100" alt="...">
-        </div>
-        <div class="carousel-item" data-bs-interval="2000">
-          <img src="https://cdn.pixabay.com/photo/2020/08/05/18/18/beans-5466103_960_720.jpg"  class="d-block w-100" alt="...">
-        </div>
-        <div class="carousel-item">
-          <img src="https://cdn.pixabay.com/photo/2020/08/01/10/01/the-cultivation-of-5455003__340.jpg"  class="d-block w-1000" alt="...">
-        </div>
+
+
+
+<div class="container-sm" style="max-width:800px; margin-top: 30px;">
+  <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active" data-bs-interval="10000">
+        <img src="https://cdn.pixabay.com/photo/2020/06/27/09/01/self-cultivation-5345147_960_720.jpg" class="d-block w-100" alt="...">
       </div>
-      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Previous</span>
-      </button>
-      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Next</span>
-      </button>
+      <div class="carousel-item" data-bs-interval="2000">
+        <img src="https://cdn.pixabay.com/photo/2020/08/05/18/18/beans-5466103_960_720.jpg" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="https://cdn.pixabay.com/photo/2020/08/01/10/01/the-cultivation-of-5455003__340.jpg" class="d-block w-100" alt="...">
+      </div>
     </div>
-</div>
-        
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+</div>        
     </body>
 </html>

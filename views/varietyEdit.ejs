@@ -1,20 +1,20 @@
 <link rel="stylesheet" type="text/css" href="../public/style.css">
-<h1>Edit Plant Information</h1>
+<h1 class="display-4">Edit Plant Information</h1>
 
-
+<div style="background-color:sandybrown; margin: 30px; padding: 30px; border: 5px salmon solid; border-radius: 5px;">
 <form class = "align-items-center" action="/gardenPlanner/variety/<%=id %>?_method=PUT" method="POST">
 <div class = "col-auto" class="input">
 
-    <label class="" for="img">Edit Image:</label>
+    <label class="" for="img"> <h1 class="display-6"> Edit Image:</h1></label>
     <input class="form-control" type="text" name="img" value="<%=img %>" aria-label="Edit image here..."/>
 
-    <label class="" for="buy">Links for buying:</label>
+    <label class="" for="buy"> <h1 class="display-6">Links for buying:</h1></label>
     <input class="form-control" type="text" name="buy" value="<%=_links.url %>" aria-label="Your links here..."/>      
 
 </div>
-    <input class='btn btn-success' type="submit"/>
+    <input class='btn btn-success' style="margin: 10px;" type="submit"/>
 </form>
-<a class='btn btn-warning' href="/gardenPlanner/variety">Cancel</a>
-
+<a class='btn btn-warning'  style="margin: 10px;" href="/gardenPlanner/variety">Cancel</a>
+</div>
 
 

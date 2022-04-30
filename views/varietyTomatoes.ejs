@@ -3,30 +3,33 @@
         <link rel="stylesheet" type="text/css" href="../public/css/style.css">
     </head>
    
-<body>
+<body style="background-image: linear-gradient(rgb(228, 200, 148), rgb(148, 224, 148)); background-repeat: no-repeat; background-color:rgb(148, 224, 148);">
 
- 
-<h1 class="display-3">Edit or Add New Recommended Varieties</h1>
-<div class="container-fluid">
+<div style="background-color:rgb(244, 237, 193); padding: 5px; border:2px rgb(10, 143, 78) solid; border-radius: 3px; margin: 0px 0px 30px 0px;">
+    <h1 class="display-3">Variety Catalog: Add or Edit</h1>
+</div> 
+
+<div class="container-fluid" style="padding: 20px;">
     <div class="row align-items-center ">
 
         <% varieties.forEach(v => { %>
-            <div class="card" style="width: 18rem; background-color: antiquewhite; margin:auto;">
+            <div class="card" style="width: 18rem; background-color: sandybrown; margin:auto;">
                 <h5 class="card-title"> <%=v.variety %> </h5>
               
                <img src = "<%=v.img %>" height='200' width="220" class="card-img-top" alt="Image of Plant">
                <div class="card-body">
                    
     
-                    <a class = "btn btn-primary" href = "/gardenPlanner/variety/<%=v.id %>">Edit</a>
+                    <a class = "btn btn-primary" style="margin: 5px" href = "/gardenPlanner/variety/<%=v.id %>">Edit</a>
 
                     <div>
-                        <a class="btn btn-warning" href="<%=v._links.url %>"> Shop Here </a>
+                        <a class="btn btn-warning" style="margin: 5px" href="<%=v._links.url %>"> Shop Here </a>
                     </div>
     
                     <form  action="/gardenPlanner/variety/<%=v.id %>?_method=DELETE" method ="POST">
                         <input 
                             class="btn btn-danger"
+                            style="margin: 5px"
                             type="submit"
                             value="Delete"/>
                     </form>
