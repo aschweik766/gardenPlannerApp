@@ -5,7 +5,8 @@ mongoose.Promise = Promise
 const mongoURI =
     process.env.NODE_ENV === 'production'
     ? process.env.DB_URL
-    : 'mongodb://localhost/gardenPlanner'
+    // : 'mongodb://localhost/gardenPlanner'
+    : 'mongodb+srv://test:test1@cluster0.06xha.mongodb.net/gardenPlanner'
 
 mongoose.connect(mongoURI, {})
     .then((instance) =>
