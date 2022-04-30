@@ -1,7 +1,9 @@
+const dot = require('dotenv').config();
 const express = require('express');
 const cors = require("cors");
 const ejsLayouts = require('express-ejs-layouts');
 const methodOverride = require('method-override');
+
 
 
 const app = express();
